@@ -2,7 +2,7 @@
  *
  * Cria o objeto do elevador
  * Construtor da classe em uma só função
- * Define o controlador, tipo de motor e enccoder utilizado
+ * Define o controlador, tipo de motor e encoder utilizado
  * Configura o PIDF para melhor performance
  * Cria funções e metodos padrão de funcionamento 
  * 
