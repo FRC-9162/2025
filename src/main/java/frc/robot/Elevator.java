@@ -11,7 +11,6 @@
 package frc.robot;
 
 //Bibliotecas utilizadas na classe
-
 import com.revrobotics.CANSparkBase.IdleMode;
 import com.revrobotics.SparkPIDController;
 import com.revrobotics.CANSparkFlex;
@@ -19,8 +18,8 @@ import com.revrobotics.RelativeEncoder;
 import com.revrobotics.CANSparkLowLevel.MotorType;
 
 public class Elevator {
-    // Criação de objetos e váriaveis
 
+    // Criação de objetos e váriaveis
     private CANSparkFlex elevatorMotor;
     private RelativeEncoder elevatorEncoder;
     private SparkPIDController elevatorPIDcontroller;
@@ -37,7 +36,7 @@ public class Elevator {
 
         elevatorEncoder.setPositionConversionFactor(360 * 60);
         elevatorEncoder.setPosition(0.0);
-        System.out.println("Posição incial do motor: " + elevatorEncoder.getPosition());
+        System.out.println("Posição incial do elevador: " + elevatorEncoder.getPosition());
 
         elevatorPIDcontroller = elevatorMotor.getPIDController();
         ElevatorPIDsetup();
