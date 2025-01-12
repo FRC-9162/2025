@@ -110,5 +110,4 @@ public class Robot extends TimedRobot {
   public double currentTime(){
     return timer.get();
   }
-
 }
